@@ -50,9 +50,14 @@ h1 {
   align-items: center;
 }
 
+#photo {
+  
+}
+
 #y {
-  max-width: 50vh;
-  width: auto;
+  min-width: 20vw;;
+  max-width: 35vw;
+  height: auto;
 }
 
 #intro-text {
