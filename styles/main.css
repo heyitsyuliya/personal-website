@@ -1,9 +1,19 @@
 /* global styles */
+body {
+  color: #11151C;
+}
+
 h1 {
   font-family: 'Montaga', serif;
 }
 
 p {
+  font-family: 'Marcellus', serif;
+  font-size: 1.3em;
+  line-height: 1.2em;
+}
+
+h6 {
   font-family: 'Marcellus', serif;
 }
 
@@ -17,6 +27,10 @@ section {
 
 .container {
   margin: 5em;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /* hello section */
@@ -27,20 +41,78 @@ h1 {
 
 #greeting {
   width: 100vw;
+  justify-content: center;
 }
 
 /* about section */
-#photo, #intro {
-  height: 50vh;
-  width: 30vw;
+#intro {
+  display: flex;
+  align-items: center;
 }
 
-#photo {
-  background-color: grey;
+#y {
+  max-width: 50vh;
+  width: auto;
+}
+
+#intro-text {
+  padding: 5em;
+  max-width: 40vw;
 }
 
 /* work section */
 
+img {
+  max-width: 25vw;
+}
+
+/* footer */
+footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  padding-bottom: 1em;
+}
+
+/* social media icons styling */
+#social-icons {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+}
+
+#social-icons li {
+  padding-right: 1em;
+}
+
+.fa {
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-github, .fa-instagram, .fa-linkedin-in {
+  color: 11151C;
+}
+
+.fa-linkedin-in:hover {
+  color: #007bb6;
+}
+
+.fa-github:hover {
+  color: #8C7AA9;
+}
+
+.fa-instagram:hover {
+  color: #DE6C83;
+}
 
 
 /* media queries */
+
+
